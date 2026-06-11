@@ -1,0 +1,84 @@
+[
+  {"text": "Сделать отчёт до завтра", "is_task": true},
+  {"text": "Пойдём гулять", "is_task": false},
+  {"text": "Нужно пофиксить баг", "is_task": true},
+  {"text": "Давай созвонимся", "is_task": false},
+  {"text": "Купить молоко", "is_task": true},
+  {"text": "Давай подумаем над архитектурой", "is_task": false},
+  {"text": "Стоит обсудить дизайн", "is_task": false},
+  {"text": "Нужно срочно сделать отчёт", "is_task": true},
+  {"text": "Когда-нибудь надо переделать систему", "is_task": false},
+  {"text": "Ваня, пофикси баг", "is_task": true},
+  {"text": "Давай подумаем над архитектурой", "is_task": false},
+  {"text": "Стоит обсудить дизайн", "is_task": false},
+  {"text": "Когда-нибудь надо переделать систему", "is_task": false},
+  {"text": "Нужно срочно сделать отчёт", "is_task": true},
+  {"text": "Ваня, сделай задачу", "is_task": true},
+  {"text": "Ну да, конечно, сделай это сам", "is_task": false},
+  {"text": "Кто-нибудь это вообще будет делать?", "is_task": false},
+  
+  {"text": "сделай задачу купить продукты завтра", "priority": "medium", "datetime": "tomorrow", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни позвонить маме в пятницу", "priority": "medium", "datetime": "friday", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "поставь дедлайн до четверга", "priority": "medium", "datetime": "thursday", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "мне нужно закончить диплом к 1 апреля", "priority": "high", "datetime": "2026-04-01", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "создай задачу сходить в зал сегодня вечером", "priority": "medium", "datetime": "today_evening", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "срочно сделай задачу отправить письмо", "priority": "high", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+  {"text": "важно закончить проект до среды", "priority": "high", "datetime": "wednesday", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "сделай напоминание на завтра утром, это очень важно", "priority": "high", "datetime": "tomorrow_morning", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "срочно нужно оплатить аренду до завтра", "priority": "high", "datetime": "tomorrow", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "поставь задачу на сегодня, приоритет высокий", "priority": "high", "datetime": "today", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "сделай задачу когда-нибудь почитать книгу", "priority": "low", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни потом посмотреть фильм", "priority": "low", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+  {"text": "добавь задачу без даты: убрать комнату", "priority": "low", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+  {"text": "поставь напоминание через какое-то время", "priority": "low", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "сделай задачу до четверга, но если не получится — перенести", "priority": "medium", "datetime": "thursday", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни завтра утром или днём проверить почту", "priority": "medium", "datetime": "tomorrow", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "поставь дедлайн примерно на следующей неделе", "priority": "medium", "datetime": "next_week", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "срочно, но не сегодня, а завтра вечером сделай задачу", "priority": "high", "datetime": "tomorrow_evening", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "важно: не забыть позвонить в понедельник утром", "priority": "high", "datetime": "monday_morning", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "поставь напоминание через 3 дня, но утром", "priority": "medium", "datetime": "in_3_days_morning", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "если сегодня не успею, напомни завтра", "priority": "medium", "datetime": "tomorrow", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни через день после завтра", "priority": "medium", "datetime": "in_2_days", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "сделай задачу на конец текущей недели", "priority": "medium", "datetime": "end_of_week", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "создай задачу: подготовить отчёт до пятницы в 18:00", "priority": "high", "datetime": "friday_18:00", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни завтра в 07:30 проснуться", "priority": "medium", "datetime": "tomorrow_07:30", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "поставь напоминание на 01.05", "priority": "medium", "datetime": "05-01", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "срочно нужно сделать задачу до завтра 12:00", "priority": "high", "datetime": "tomorrow_12:00", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "очень важно напомнить сегодня в 20:00", "priority": "high", "datetime": "today_20:00", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни прямо сейчас", "priority": "high", "datetime": "now", "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "сделай задачу без срока", "priority": "low", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни позже", "priority": "low", "datetime": null, "recurrence": null, "noise": false, "is_task": true},
+
+  {"text": "напомни каждую неделю в понедельник", "priority": "medium", "datetime": "monday", "recurrence": "weekly", "noise": false, "is_task": true},
+  {"text": "сделай задачу с повторением раз в месяц", "priority": "medium", "datetime": null, "recurrence": "monthly", "noise": false, "is_task": true},
+  {"text": "напомни каждый день в 9 утра", "priority": "medium", "datetime": "09:00", "recurrence": "daily", "noise": false, "is_task": true},
+
+  {"text": "флдрфрпжы", "priority": null, "datetime": null, "recurrence": null, "noise": true, "is_task": false},
+  {"text": "12354321", "priority": null, "datetime": null, "recurrence": null, "noise": true, "is_task": false},
+  {"text": "...,,,,\\\\\\", "priority": null, "datetime": null, "recurrence": null, "noise": true, "is_task": false},
+  {"text": "!!!???!!!", "priority": null, "datetime": null, "recurrence": null, "noise": true, "is_task": false},
+
+  {"text": "срочно!!! завтра!!! сделать!!!", "priority": "high", "datetime": "tomorrow", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "важно??? напомни?? завтра??", "priority": "high", "datetime": "tomorrow", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни ??? вечером", "priority": "medium", "datetime": "evening", "recurrence": null, "noise": false, "is_task": true},
+
+
+
+  {"text": "срочно нужно сделать задачу до завтра 12:00", "priority": "high", "datetime": "tomorrow_12:00", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "очень важно напомнить сегодня в 20:00", "priority": "high", "datetime": "today_20:00", "recurrence": null, "noise": false, "is_task": true},
+  {"text": "напомни прямо сейчас", "priority": "high", "datetime": "now", "recurrence": null, "noise": false, "is_task": true},
+
+
+  {"text": "напомни каждую неделю в понедельник", "priority": "medium", "datetime": "monday", "recurrence": "weekly", "noise": false, "is_task": true},
+  {"text": "сделай задачу с повторением раз в месяц", "priority": "medium", "datetime": null, "recurrence": "monthly", "noise": false, "is_task": true},
+  {"text": "напомни каждый день в 9 утра", "priority": "medium", "datetime": "09:00", "recurrence": "daily", "noise": false, "is_task": true}
+
+]
