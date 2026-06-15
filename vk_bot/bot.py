@@ -1,3 +1,6 @@
+import asyncio
+
+from services.task_pipeline import process_message
 import logging
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
@@ -6,9 +9,9 @@ import json
 
 # Подключаем твои файлы с функциями
 from agents.detector import detect_task  # Импортируем из detector.py
-from agents.extractor import extract_data  # Импортируем из extractor.py
-from agents.priority import get_priority  # Импортируем из priority.py
-from agents.validator import validate  # Импортируем из validator.py
+from agents.extractor_new import extract_data  # Импортируем из extractor.py
+from agents.priority_tool import get_priority  # Импортируем из priority.py
+from agents.validator_new import validate_task  # Импортируем из validator.py
 
 # Загрузка датасетов
 def load_dataset(filename):

@@ -1,27 +1,15 @@
-from typing import TypedDict
-from langchain_community.chat_models import ChatOpenAI
+import requests
+import time
+
+#Конфигурация модели (локальный LLM через LM Studio)
+MODEL_NAME = "google/gemma-3-4b"
+URL = "http://26.74.0.23:1234/v1/chat/completions"
 
 
+def detect_task(text: str) -> dict:
+    text = text.strip()
 
-MODEL_NAME = "gemma-3-4b"
-LM_STUDIO_BASE_URL = "http://localhost:1234/v1"
-
-llm = ChatOpenAI(
-    base_url=LM_STUDIO_BASE_URL,
-    api_key="lm-studio",
-    model=MODEL_NAME,
-    temperature=0,
-)
-
-
-class TaskState(TypedDict, total=False):
-    text: str
-    is_task: bool
-
-
-def build_detector_prompt(text: str) -> str:
-    return f"""
-    
+    prompt = f"""
     Определи, является ли сообщение задачей.
 
     Задача — это любое действие, которое человек должен выполнить, независимо от того, насколько оно простое или неопределённое. Это могут быть как большие задачи, так и маленькие бытовые дела.
@@ -32,47 +20,17 @@ def build_detector_prompt(text: str) -> str:
     - личные дела ("написать диплом", "позвонить маме")
 
     ВАЖНО:
-    - Даже если задача не содержит четкого объекта или деталей, это всё равно задача
     - Короткие команды и указания тоже считаются задачами
     - Задача не должна быть абстрактной или неопределённой, но если это действие, которое человек может выполнить — это задача
-
-    ВАЖНО:
     - наличие слов "не срочно", "потом", "позже" НЕ делает это не задачей
     - это всё равно задача, просто с низким приоритетом
-
-    ВАЖНО (очень строго):
-
-    Сообщение НЕ является задачей, если:
-    - есть только действие + дата без объекта
-    - нет понятного результата действия
-
-    Примеры НЕ задач:
-    - "сделать 14.04" → false
-    - "исправить 14 апреля" → false
-    - "сделать завтра" → false
-    - "сделать в понедельник" → false
-
-    Причина:
-    нет объекта (что именно сделать)
-
-    Задача должна отвечать на вопрос:
-    "ЧТО именно сделать?"
-
-    ВАЖНО:
-
-    Задача может быть короткой.
-
-    Если есть понятное действие, даже без деталей — это задача.
-
-    Примеры:
-    - "сделать отчет" → true
-    - "пофиксить баг" → true
-    - "написать код" → true
+    - Задача может быть короткой.
+    - Если есть понятное действие, даже без деталей — это задача.
+    -В тексте могут быть орфографические ошибки, опечатки, пропущенные буквы. Ты должен самостоятельно понять смысл и исправить их мысленно перед анализом.
 
     НЕ задача только если:
     - вообще непонятно, что делать
     - или есть слова "это", "что-то", "как-нибудь"(неопределенное действие)
-    
 
     НЕ задача:
     - Абстрактные предложения без конкретного действия или объекта (например, "разберись с этим", "посмотри").
@@ -82,64 +40,81 @@ def build_detector_prompt(text: str) -> str:
 
     Примеры:
     Задачи:
-    - "Сделать отчёт до вторника" → true (это задача с ясным действием и сроком).
     - "Пофиксить баг срочно" → true (это срочная задача).
     - "Отправить письмо клиенту сегодня" → true (задача с явным действием и сроком).
-    - "Подготовить презентацию к пятнице" → true (задача с чётким сроком).
     - "Сходить в спортзал" → true (это задача, даже если не указан точный срок).
-    - "Написать диплом" → true (задача, даже если не указан точный срок).
+    - В следующий раз собираюсь пойти в зал через 3 дня → true (это задача с ясным действием и сроком).
+    - Вова, сделай все правки по проекту позже  → true (это задача, даже если не указан точный срок).
 
     НЕ задачи:
+    - "может сходить в зал" → false (Предложение без чёткой цели)
     - "Сделай это" → false (неопределённая команда без объекта).
     - "Разберись с этим" → false (неопределённая команда без четкого объекта).
     - "Пойди погуляй" → false (не задача, а предложение).
     - "Обсудить встречу в пятницу" → false (обсуждение, а не задача).
-    - "сделать 14.04" → false
+    - "сделать 14.04" → false (неопределённая команда без объекта).
     - "исправить 14 апреля" → false
-    - "сделать завтра" → false
-    - "написать" → false
-    - "исправить" → false
+    - "сделать" → false (неопределённая команда без объекта).
+
+    ВАЖНО:
+    В тексте могут быть орфографические ошибки, опечатки, пропущенные буквы.
+    Ты должен самостоятельно понять смысл и исправить их мысленно перед анализом.
+
+    Примеры:
+    - "схадить в зал" → "сходить в зал" → true
 
     Ответь строго одним словом:
     true
     или
     false
 
-Сообщение: "{text.strip()}"
-""".strip()
+    Сообщение: "{text}"
+    """
 
-
-def parse_response(content: str) -> bool:
-    content = content.strip().lower()
-
-    if content.startswith("true"):
-        return True
-    if content.startswith("false"):
-        return False
-
-    return False
-
-
-def detect_task(text: str) -> bool:
-    text = text.strip()
-    if not text:
-        return False
-
-    prompt = build_detector_prompt(text)
-
+    start_time = time.time()
 
     try:
-        response = llm.invoke([
-    {"role": "user", "content": prompt}
-])
-        content = response.content
-        return parse_response(content)
+        response = requests.post(
+            URL,
+            json={
+                "model": MODEL_NAME,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.0,
+                "max_tokens": 5,
+            },
+            timeout=30,
+        )
+
+        #Время выполнения
+        latency = time.time() - start_time
+
+        response.raise_for_status()
+        data = response.json()
+
+        content = data["choices"][0]["message"]["content"].strip().lower()
+
+        #Результат, который вернула модель
+        if content.startswith("true"):
+            is_task = True
+        elif content.startswith("false"):
+            is_task = False
+        else:
+            is_task = False
+    
+        usage = data.get("usage", None)
+
+        return {
+            "is_task": is_task,
+            "latency": latency,
+            "tokens": usage,
+            "raw": content
+        }
+
     except Exception as e:
-        print(f"[detector] ошибка: {e}")
-        return False
-
-
-# 👉 для LangGraph
-def detector_node(state: TaskState) -> TaskState:
-    state["is_task"] = detect_task(state.get("text", ""))
-    return state
+        return {
+            "is_task": False,
+            "latency": None,
+            "tokens": None,
+            "raw": None,
+            "error": str(e)
+        }
