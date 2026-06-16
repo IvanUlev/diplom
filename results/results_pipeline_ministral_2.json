@@ -1,0 +1,3010 @@
+[
+  {
+    "text": "как дела",
+    "is_task": false
+  },
+  {
+    "text": "что делаешь",
+    "is_task": false
+  },
+  {
+    "text": "давай созвонимся",
+    "is_task": false
+  },
+  {
+    "text": "пойдем гулять",
+    "is_task": false
+  },
+  {
+    "text": "интересно как это работает",
+    "is_task": false
+  },
+  {
+    "text": "надо бы подумать",
+    "is_task": false
+  },
+  {
+    "text": "может стоит обновить код",
+    "is_task": false
+  },
+  {
+    "text": "посмотри",
+    "is_task": false
+  },
+  {
+    "text": "флдрфрпжы",
+    "is_task": false
+  },
+  {
+    "text": "123456",
+    "is_task": false
+  },
+  {
+    "text": "фываываыва",
+    "is_task": false
+  },
+  {
+    "text": "asdfghjkl",
+    "is_task": false
+  },
+  {
+    "text": "123123123",
+    "is_task": false
+  },
+  {
+    "text": "!!!???",
+    "is_task": false
+  },
+  {
+    "text": "сделать это",
+    "is_task": false
+  },
+  {
+    "text": "как-нибудь потом",
+    "is_task": false
+  },
+  {
+    "text": "может стоит подумать",
+    "is_task": false
+  },
+  {
+    "text": "ээээ ну типа да",
+    "is_task": false
+  },
+  {
+    "text": "не понимаю",
+    "is_task": false
+  },
+  {
+    "text": "не задача",
+    "is_task": false
+  },
+  {
+    "text": "вроде бы надо",
+    "is_task": false
+  },
+  {
+    "text": "что-то сделать",
+    "is_task": false
+  },
+  {
+    "text": "ну это",
+    "is_task": false
+  },
+  {
+    "text": "сделать как-нибудь",
+    "is_task": false
+  },
+  {
+    "text": "это важно наверное",
+    "is_task": false
+  },
+  {
+    "text": "а если подумать",
+    "is_task": false
+  },
+  {
+    "text": "надо бы",
+    "is_task": false
+  },
+  {
+    "text": "это сделай",
+    "is_task": false
+  },
+  {
+    "text": "посмотри это",
+    "is_task": false
+  },
+  {
+    "text": "ну такое",
+    "is_task": false
+  },
+  {
+    "text": "Обсудить код после занятий вечером",
+    "is_task": true,
+    "output": {
+      "title": "Обсуждение кода",
+      "description": "Провести обсуждение кода с участниками после завершения занятий",
+      "deadline": "2026-05-20 19:00",
+      "priority": "high",
+      "latency": 3.0849509239196777,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 45,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Обсуждение кода\",\n    \"description\": \"Провести обсуждение кода с участниками после завершения занятий\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Давай подумаем над архитектурой",
+    "is_task": false
+  },
+  {
+    "text": "Ну да, конечно, сделай это сам",
+    "is_task": false
+  },
+  {
+    "text": "Кто-нибудь это вообще будет делать?",
+    "is_task": false
+  },
+  {
+    "text": "Стоит обсудить дизайн",
+    "is_task": false
+  },
+  {
+    "text": "Когда-нибудь надо переделать систему",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "необходимо переработать систему",
+      "deadline": "нет срока",
+      "priority": "low",
+      "latency": 2.800642728805542,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 33,
+        "total_tokens": 1259,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"необходимо переработать систему\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "04.05.2026",
+    "is_task": false
+  },
+  {
+    "text": "сделать 04.05.2026",
+    "is_task": false
+  },
+  {
+    "text": "После спортзала срочно",
+    "is_task": false
+  },
+  {
+    "text": "Прыгнуть с крыши послезавтра в обед",
+    "is_task": false
+  },
+  {
+    "text": "Один кирпич в среду",
+    "is_task": false
+  },
+  {
+    "text": "если получится сделай отчет",
+    "is_task": false
+  },
+  {
+    "text": "может пофиксишь баг",
+    "is_task": false
+  },
+  {
+    "text": "сделать",
+    "is_task": false
+  },
+  {
+    "text": "исправить",
+    "is_task": false
+  },
+  {
+    "text": "я ничего не понимаю",
+    "is_task": false
+  },
+  {
+    "text": "Интересно, как это работает",
+    "is_task": false
+  },
+  {
+    "text": "Что ты думаешь о проекте?",
+    "is_task": false
+  },
+  {
+    "text": "Как ты проводишь время?",
+    "is_task": false
+  },
+  {
+    "text": "Когда будет свободное время?",
+    "is_task": false
+  },
+  {
+    "text": "Не знаю, как это сделать",
+    "is_task": false
+  },
+  {
+    "text": "Всё будет хорошо, не переживай",
+    "is_task": false
+  },
+  {
+    "text": "Ты не понимаешь меня",
+    "is_task": false
+  },
+  {
+    "text": "Попроси кого-нибудь помочь",
+    "is_task": false
+  },
+  {
+    "text": "Какие у нас новости?",
+    "is_task": false
+  },
+  {
+    "text": "Надо это обсудить",
+    "is_task": false
+  },
+  {
+    "text": "Это подождёт",
+    "is_task": false
+  },
+  {
+    "text": "Ты когда-нибудь пробовал это?",
+    "is_task": false
+  },
+  {
+    "text": "Это может подождать",
+    "is_task": false
+  },
+  {
+    "text": "Не стоит этого делать",
+    "is_task": false
+  },
+  {
+    "text": "Мне нужно подумать",
+    "is_task": false
+  },
+  {
+    "text": "Надо сделать что-то, но не знаю что",
+    "is_task": false
+  },
+  {
+    "text": "Всё ещё не уверен",
+    "is_task": false
+  },
+  {
+    "text": "Мы это уже обсуждали",
+    "is_task": false
+  },
+  {
+    "text": "Даже не знаю, с чего начать",
+    "is_task": false
+  },
+  {
+    "text": "Давай попробуем снова",
+    "is_task": false
+  },
+  {
+    "text": "сделать отчет до пятницы вечером",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовить и оформить отчет по заданным требованиям",
+      "deadline": "2026-05-22 19:00",
+      "priority": "high",
+      "latency": 2.91253399848938,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 53,
+        "total_tokens": 1282,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать отчёт\",\n  \"description\": \"Подготовить и оформить отчет по заданным требованиям\",\n  \"deadline\": \"в пятницу вечером\"\n}\n```"
+    }
+  },
+  {
+    "text": "срочно закончить проект завтра утром",
+    "is_task": true,
+    "output": {
+      "title": "Закончить проект",
+      "description": "Срочное завершение проекта",
+      "deadline": "2026-05-21 09:00",
+      "priority": "high",
+      "latency": 2.7015678882598877,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 41,
+        "total_tokens": 1270,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Закончить проект\",\n  \"description\": \"Срочное завершение проекта\",\n  \"deadline\": \"завтра утром\"\n}\n```"
+    }
+  },
+  {
+    "text": "через 3 дня вечером отправить письмо",
+    "is_task": true,
+    "output": {
+      "title": "Отправить письмо",
+      "description": "Отправить письмо",
+      "deadline": "2026-05-23",
+      "priority": "medium",
+      "latency": 2.724578857421875,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 41,
+        "total_tokens": 1271,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправить письмо\",\n    \"description\": \"Отправить письмо\",\n    \"deadline\": \"через 3 дня\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать задачу в понедельник утром",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-05-25 09:00",
+      "priority": "medium",
+      "latency": 2.898758888244629,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 61,
+        "total_tokens": 1291,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n**Задача не содержит достаточной информации для извлечения данных в формате JSON.** Пожалуйста, уточните или предоставьте полный текст задачи."
+    }
+  },
+  {
+    "text": "позвонить клиенту в конце недели",
+    "is_task": true,
+    "output": {
+      "title": "Связаться с клиентом",
+      "description": "Организовать звонок для взаимодействия с клиентом",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.779775857925415,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 48,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Связаться с клиентом\",\n    \"description\": \"Организовать звонок для взаимодействия с клиентом\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "написать код к середине лета",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "написать код",
+      "deadline": "2026-07-15",
+      "priority": "low",
+      "latency": 2.581378221511841,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 29,
+        "total_tokens": 1256,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"написать код\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать презентацию к началу осени",
+    "is_task": true,
+    "output": {
+      "title": "Создать презентацию",
+      "description": "Подготовить и оформить презентационный материал для выступления",
+      "deadline": "2026-09-01",
+      "priority": "low",
+      "latency": 2.6782543659210205,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 47,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать презентацию\",\n  \"description\": \"Подготовить и оформить презентационный материал для выступления\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "доделать задачу после обеда завтра",
+    "is_task": true,
+    "output": {
+      "title": "Доделать задачу",
+      "description": "Завершить оставшуюся часть задачи",
+      "deadline": "2026-05-21 15:00",
+      "priority": "high",
+      "latency": 2.690279722213745,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 39,
+        "total_tokens": 1269,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Доделать задачу\",\n  \"description\": \"Завершить оставшуюся часть задачи\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "закончить отчет к утру вторника",
+    "is_task": true,
+    "output": {
+      "title": "Завершить отчёт",
+      "description": "Подготовка и оформление отчёта для сдачи",
+      "deadline": "2026-05-26 09:00",
+      "priority": "low",
+      "latency": 2.7802248001098633,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 49,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Завершить отчёт\",\n  \"description\": \"Подготовка и оформление отчёта для сдачи\",\n  \"deadline\": \"утром вторника\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать задачу через 1 день вечером",
+    "is_task": true,
+    "output": {
+      "title": "Сделать задачу",
+      "description": "выполнить задание",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.7061924934387207,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 41,
+        "total_tokens": 1271,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Сделать задачу\",\n  \"description\": \"выполнить задание\",\n  \"deadline\": \"через 1 день\"\n}\n```"
+    }
+  },
+  {
+    "text": "пофиксить баг через 4 дня утром",
+    "is_task": true,
+    "output": {
+      "title": "Пофиксить баг",
+      "description": "Исправить обнаруженный дефект в системе",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.7859997749328613,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 47,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Пофиксить баг\",\n  \"description\": \"Исправить обнаруженный дефект в системе\",\n  \"deadline\": \"через 4 дня\"\n}\n```"
+    }
+  },
+  {
+    "text": "обновить систему к следующему вторнику",
+    "is_task": true,
+    "output": {
+      "title": "Обновление системы",
+      "description": "Подготовка и внедрение обновлений для системы без остановки работы пользователей.",
+      "deadline": "2026-05-26",
+      "priority": "low",
+      "latency": 2.7800891399383545,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 47,
+        "total_tokens": 1275,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Обновление системы\",\n    \"description\": \"Подготовка и внедрение обновлений для системы без остановки работы пользователей.\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать задачу до конца месяца",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-05-31",
+      "priority": "low",
+      "latency": 3.189197540283203,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 69,
+        "total_tokens": 1297,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n**Замечание:** В тексте отсутствуют явные данные для извлечения задачи в формате JSON. Пожалуйста, уточните или приведите полный текст задачи для корректного анализа."
+    }
+  },
+  {
+    "text": "закончить отчет к 25 мая",
+    "is_task": true,
+    "output": {
+      "title": "Завершить отчёт",
+      "description": "Подготовка и оформление отчёта для предоставления в установленном формате",
+      "deadline": "2026-05-25",
+      "priority": "low",
+      "latency": 2.8933351039886475,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 53,
+        "total_tokens": 1282,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Завершить отчёт\",\n  \"description\": \"Подготовка и оформление отчёта для предоставления в установленном формате.\",\n  \"deadline\": \"25 мая\"\n}\n```"
+    }
+  },
+  {
+    "text": "написать дипломную работу к июню",
+    "is_task": true,
+    "output": {
+      "title": "Подготовка дипломной работы",
+      "description": "Организовать и выполнить написание дипломной работы",
+      "deadline": "2026-06-01",
+      "priority": "low",
+      "latency": 2.7752578258514404,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 46,
+        "total_tokens": 1276,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Подготовка дипломной работы\",\n    \"description\": \"Организовать и выполнить написание дипломной работы\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "срочно исправить баг прямо сейчас",
+    "is_task": true,
+    "output": {
+      "title": "Исправить баг",
+      "description": "Срочная корректировка неполадки в системе",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.7679316997528076,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 48,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Исправить баг\",\n  \"description\": \"Срочная корректировка неполадки в системе\",\n  \"deadline\": \"сейчас\"\n}\n```"
+    }
+  },
+  {
+    "text": "позвонить маме вечером",
+    "is_task": true,
+    "output": {
+      "title": "Позвонить маме",
+      "description": "Связаться с мамой для разговора",
+      "deadline": "2026-05-20 19:00",
+      "priority": "high",
+      "latency": 2.7285845279693604,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 42,
+        "total_tokens": 1269,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Позвонить маме\",\n  \"description\": \"Связаться с мамой для разговора\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать задачу утром",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-05-20 09:00",
+      "priority": "high",
+      "latency": 2.9385571479797363,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 61,
+        "total_tokens": 1287,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"\",\n    \"deadline\": \"\"\n}\n```\n\n**Задача не указана явно в тексте.** Пожалуйста, уточните или приведите полный текст задачи для корректного извлечения данных."
+    }
+  },
+  {
+    "text": "сделать задачу после завтрака",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "задача",
+      "deadline": "2026-05-22",
+      "priority": "high",
+      "latency": 3.8074088096618652,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 150,
+        "total_tokens": 1378,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"задача\",\n  \"deadline\": \"\"\n}\n```\n\n*(Поскольку в тексте отсутствует конкретное название задачи и описание не содержит явных указаний, я привел шаблон для корректного формата. Если у вас есть дополнительный контекст или текст с деталями задачи — пожалуйста, предоставьте его для точного извлечения.)*\n\n---\n**Пример корректной обработки (если бы задача была указана):**\nЕсли исходное сообщение было:\n*\"Создать документ про анализ данных к концу недели\"* →\n```json\n{\n "
+    }
+  },
+  {
+    "text": "купить молоко",
+    "is_task": true,
+    "output": {
+      "title": "Покупка молока",
+      "description": "Закупка молока",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.7617831230163574,
+      "tokens": {
+        "prompt_tokens": 1224,
+        "completion_tokens": 36,
+        "total_tokens": 1260,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Покупка молока\",\n    \"description\": \"Закупка молока\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сходить в зал",
+    "is_task": true,
+    "output": {
+      "title": "Сходить в тренажёрный зал",
+      "description": "Пройти тренировку или посетить фитнес-зал",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.773996114730835,
+      "tokens": {
+        "prompt_tokens": 1223,
+        "completion_tokens": 48,
+        "total_tokens": 1271,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сходить в тренажёрный зал\",\n    \"description\": \"Пройти тренировку или посетить фитнес-зал\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "написать расширенную версию текста презентации",
+    "is_task": true,
+    "output": {
+      "title": "Расширить текст презентации",
+      "description": "Написать расширенную версию существующего текста презентации",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.838135004043579,
+      "tokens": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 51,
+        "total_tokens": 1285,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Расширить текст презентации\",\n    \"description\": \"Написать расширенную версию существующего текста презентации\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет сегодня",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовка и оформление отчета без указания конкретных данных или деталей процесса.",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.8291707038879395,
+      "tokens": {
+        "prompt_tokens": 1225,
+        "completion_tokens": 51,
+        "total_tokens": 1276,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчёт\",\n    \"description\": \"Подготовка и оформление отчета без указания конкретных данных или деталей процесса.\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет завтра",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовка и оформление отчета по заданию",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.731191635131836,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 42,
+        "total_tokens": 1268,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчёт\",\n    \"description\": \"Подготовка и оформление отчета по заданию\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "пофиксить баг завтра вечером",
+    "is_task": true,
+    "output": {
+      "title": "Пофиксить баг",
+      "description": "Исправить обнаруженный дефект в системе",
+      "deadline": "2026-05-21 19:00",
+      "priority": "high",
+      "latency": 2.692662239074707,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 41,
+        "total_tokens": 1270,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Пофиксить баг\",\n    \"description\": \"Исправить обнаруженный дефект в системе\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сходить в зал сегодня вечером",
+    "is_task": true,
+    "output": {
+      "title": "Сходить в тренажёрный зал",
+      "description": "Пройти тренировку или посетить спортзал",
+      "deadline": "2026-05-20 19:00",
+      "priority": "high",
+      "latency": 2.761991024017334,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 45,
+        "total_tokens": 1271,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сходить в тренажёрный зал\",\n    \"description\": \"Пройти тренировку или посетить спортзал\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "напомни сегодня в 23:00 позвонить маме",
+    "is_task": true,
+    "output": {
+      "title": "Напоминание о звонке матери",
+      "description": "Запланировать напоминание для звонка матери",
+      "deadline": "2026-05-20 23:00",
+      "priority": "high",
+      "latency": 2.828861951828003,
+      "tokens": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 46,
+        "total_tokens": 1282,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Напоминание о звонке матери\",\n    \"description\": \"Запланировать напоминание для звонка матери\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "надо поставить будильник на завтра на 7:45 сегодня вечером",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-05-20 07:45",
+      "priority": "high",
+      "latency": 3.0740818977355957,
+      "tokens": {
+        "prompt_tokens": 1239,
+        "completion_tokens": 54,
+        "total_tokens": 1293,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n**Задача не найдена в тексте для извлечения.** Пожалуйста, уточните или приведите полный текст задачи."
+    }
+  },
+  {
+    "text": "надо поставить будильник сейчас на завтра на 900",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-05-20 09:00",
+      "priority": "high",
+      "latency": 3.4817702770233154,
+      "tokens": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 117,
+        "total_tokens": 1353,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n**Замечание:**\nВ тексте отсутствуют явные данные о задаче, поэтому невозможно извлечь корректный JSON в соответствии с вашими требованиями. Пожалуйста, уточните или приведите полноценное описание задачи для дальнейшей обработки.\n\n*(Если текст содержит ошибки орфографии — их исправление не требуется, так как они не влияют на логику извлечения.)*"
+    }
+  },
+  {
+    "text": "надо поставить будильник на завтра на 9:00",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-05-21 09:00",
+      "priority": "high",
+      "latency": 3.13936185836792,
+      "tokens": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 61,
+        "total_tokens": 1297,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n*Задача не указана явно в тексте. Пожалуйста, уточните или приведите полный текст задачи для корректного извлечения данных.*"
+    }
+  },
+  {
+    "text": "надо записаться на прием к врачу на утро сегодня вечером",
+    "is_task": true,
+    "output": {
+      "title": "Записаться на приём к врачу",
+      "description": "организовать запись на приём к врачу",
+      "deadline": "2026-05-20 19:00",
+      "priority": "high",
+      "latency": 2.7876548767089844,
+      "tokens": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 47,
+        "total_tokens": 1283,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Записаться на приём к врачу\",\n    \"description\": \"организовать запись на приём к врачу\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "надо забронировать отель на выходные завтра в обед",
+    "is_task": true,
+    "output": {
+      "title": "Бронирование отеля на выходные",
+      "description": "Заброньовать отель для предстоящих выходных",
+      "deadline": "2026-05-21 15:00",
+      "priority": "high",
+      "latency": 2.7429044246673584,
+      "tokens": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 46,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Бронирование отеля на выходные\",\n  \"description\": \"Заброньовать отель для предстоящих выходных\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать задачу через 2 дня",
+    "is_task": true,
+    "output": {
+      "title": "Сделать задачу",
+      "description": "Выполнить необходимые действия для задачи",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.8200643062591553,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 44,
+        "total_tokens": 1272,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сделать задачу\",\n    \"description\": \"Выполнить необходимые действия для задачи\",\n    \"deadline\": \"через 2 дня\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать задачу через 5 дней",
+    "is_task": false
+  },
+  {
+    "text": "сделать отчет в пятницу",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовка и оформление отчета по заданию",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.7884671688079834,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 46,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчёт\",\n    \"description\": \"Подготовка и оформление отчета по заданию\",\n    \"deadline\": \"в пятницу\"\n}\n```"
+    }
+  },
+  {
+    "text": "позвонить маме в понедельник",
+    "is_task": true,
+    "output": {
+      "title": "Звонить матери",
+      "description": "Связаться с мамой",
+      "deadline": "2026-05-25",
+      "priority": "low",
+      "latency": 2.7278740406036377,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 36,
+        "total_tokens": 1265,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Звонить матери\",\n    \"description\": \"Связаться с мамой\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет 23 мая",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовка и оформление отчета по заданной теме",
+      "deadline": "2026-05-23",
+      "priority": "medium",
+      "latency": 2.758964776992798,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 45,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчет\",\n    \"description\": \"Подготовка и оформление отчета по заданной теме\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сдать работу 24.05",
+    "is_task": true,
+    "output": {
+      "title": "Сдать работу",
+      "description": "Подготовка и сдача задания (не указано конкретное содержание)",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.7517688274383545,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 45,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сдать работу\",\n    \"description\": \"Подготовка и сдача задания (не указано конкретное содержание)\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "срочно отправить письмо",
+    "is_task": true,
+    "output": {
+      "title": "Отправить письмо",
+      "description": "Срочная отправка документального сообщения",
+      "deadline": "нет срока",
+      "priority": "high",
+      "latency": 2.7284860610961914,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 40,
+        "total_tokens": 1266,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправить письмо\",\n    \"description\": \"Срочная отправка документального сообщения\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "очень важно закончить проект",
+    "is_task": false
+  },
+  {
+    "text": "сделать это потом",
+    "is_task": false
+  },
+  {
+    "text": "когда-нибудь обновить код",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "Обновление кода",
+      "deadline": "нет срока",
+      "priority": "low",
+      "latency": 2.761686325073242,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 29,
+        "total_tokens": 1255,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"Обновление кода\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "срочно сделать отчет завтра утром",
+    "is_task": true,
+    "output": {
+      "title": "Сделать отчет",
+      "description": "Подготовка и оформление отчета срочно",
+      "deadline": "2026-05-21 09:00",
+      "priority": "high",
+      "latency": 2.809358835220337,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 48,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сделать отчет\",\n    \"description\": \"Подготовка и оформление отчета срочно\",\n    \"deadline\": \"завтра утром\"\n}\n```"
+    }
+  },
+  {
+    "text": "пофиксить баг до пятницы",
+    "is_task": true,
+    "output": {
+      "title": "Пофиксить баг",
+      "description": "Исправить неполадку в системе",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.761157989501953,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 45,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Пофиксить баг\",\n    \"description\": \"Исправить неполадку в системе\",\n    \"deadline\": \"пятница\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать атчот завтра",
+    "is_task": true,
+    "output": {
+      "title": "Создать атчот",
+      "description": "Задание связано с подготовкой или выполнением документа/файла (атчот)",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.8145666122436523,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 52,
+        "total_tokens": 1279,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать атчот\",\n  \"description\": \"Задание связано с подготовкой или выполнением документа/файла (атчот)\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "напомни пазванить маме",
+    "is_task": true,
+    "output": {
+      "title": "Напомнить о звонке матери",
+      "description": "Уведомить о необходимости позвонить матери",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.7491109371185303,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 45,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Напомнить о звонке матери\",\n    \"description\": \"Уведомить о необходимости позвонить матери\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Ваня, срочно сделай отчет завтра",
+    "is_task": true,
+    "output": {
+      "title": "Сделать отчет",
+      "description": "Подготовка и оформление отчета для Ваньи",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.8565046787261963,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 46,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сделать отчет\",\n    \"description\": \"Подготовка и оформление отчета для Ваньи\",\n    \"deadline\": \"завтра\"\n}\n```"
+    }
+  },
+  {
+    "text": "Даша, скинь документ позже",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "Просроченная просьба о передаче документа",
+      "deadline": "нет срока",
+      "priority": "low",
+      "latency": 3.247429609298706,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 88,
+        "total_tokens": 1316,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"Просроченная просьба о передаче документа\",\n    \"deadline\": \"\"\n}\n```\n\n*(Поскольку в тексте отсутствует конкретное название задачи и нет явных указаний на её суть, я описал общую ситуацию. Если исходный текст содержит более детализированную информацию — уточните.)*"
+    }
+  },
+  {
+    "text": "Забрать посылку в среду",
+    "is_task": true,
+    "output": {
+      "title": "Забрать посылку",
+      "description": "Организовать доставку или заказ посылки",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.7775533199310303,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 48,
+        "total_tokens": 1276,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Забрать посылку\",\n    \"description\": \"Организовать доставку или заказ посылки\",\n    \"deadline\": \"в среду\"\n}\n```"
+    }
+  },
+  {
+    "text": "Сходить на танцы во вторник",
+    "is_task": true,
+    "output": {
+      "title": "Участие в танцах",
+      "description": "Пройти обучение или участие в мероприятии по танцам",
+      "deadline": "2026-05-26",
+      "priority": "low",
+      "latency": 2.8121163845062256,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 46,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Участие в танцах\",\n    \"description\": \"Пройти обучение или участие в мероприятии по танцам\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Посмотреть новую серию сериала в четверг",
+    "is_task": true,
+    "output": {
+      "title": "Просмотр новой серии сериала",
+      "description": "Смотреть новую серию указанного сериала",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.741682767868042,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 43,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Просмотр новой серии сериала\",\n    \"description\": \"Смотреть новую серию указанного сериала\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Сделать работу над ошибками на пятницу",
+    "is_task": true,
+    "output": {
+      "title": "Работа над ошибками",
+      "description": "Проверить и исправить обнаруженные ошибки в работе",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.7831616401672363,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 49,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Работа над ошибками\",\n    \"description\": \"Проверить и исправить обнаруженные ошибки в работе\",\n    \"deadline\": \"пятница\"\n}\n```"
+    }
+  },
+  {
+    "text": "Купить 3 тонны цемента",
+    "is_task": true,
+    "output": {
+      "title": "Закупка цемента",
+      "description": "Покупка необходимого количества цемента (3 тонны)",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.8854727745056152,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 47,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Закупка цемента\",\n    \"description\": \"Покупка необходимого количества цемента (3 тонны)\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Кирпич 3 среда купить",
+    "is_task": true,
+    "output": {
+      "title": "Закупка кирпича",
+      "description": "Покупка необходимого количества кирпичей для строительных работ",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.774290084838867,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 49,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Закупка кирпича\",\n    \"description\": \"Покупка необходимого количества кирпичей для строительных работ\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Макдональдс поесть в понедельник в 1700",
+    "is_task": true,
+    "output": {
+      "title": "Заказ еды в Макдоналдс",
+      "description": "Организовать заказ пиццы или бургера в ресторане Макдоналдс",
+      "deadline": "2026-05-25 17:00",
+      "priority": "medium",
+      "latency": 2.89678955078125,
+      "tokens": {
+        "prompt_tokens": 1238,
+        "completion_tokens": 58,
+        "total_tokens": 1296,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Заказ еды в Макдоналдс\",\n    \"description\": \"Организовать заказ пиццы или бургера в ресторане Макдоналдс\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Помочь маме в субботу",
+    "is_task": true,
+    "output": {
+      "title": "Сопровождение мамы",
+      "description": "Оказание помощи по дому или поддержка в бытовых вопросах для матери",
+      "deadline": "2026-05-23",
+      "priority": "medium",
+      "latency": 2.808434247970581,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 49,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сопровождение мамы\",\n    \"description\": \"Оказание помощи по дому или поддержка в бытовых вопросах для матери\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "В следующий раз собираюсь пойти в университет через 2 дня",
+    "is_task": false
+  },
+  {
+    "text": "Оплатить аренду до завтра",
+    "is_task": true,
+    "output": {
+      "title": "Оплата аренды",
+      "description": "Произвести оплату арендных услуг",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.867960214614868,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 47,
+        "total_tokens": 1275,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Оплата аренды\",\n    \"description\": \"Произвести оплату арендных услуг\",\n    \"deadline\": \"завтра\"\n}\n```"
+    }
+  },
+  {
+    "text": "После спортзала я сегодня очень сильно устал, в следующий раз пойду через 3 дня",
+    "is_task": false
+  },
+  {
+    "text": "Обязательно завершить проект к концу весны",
+    "is_task": true,
+    "output": {
+      "title": "Завершить проект",
+      "description": "Обеспечить завершение проекта с соблюдением всех требований и этапов",
+      "deadline": "2026-05-31",
+      "priority": "low",
+      "latency": 2.8388853073120117,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 48,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Завершить проект\",\n  \"description\": \"Обеспечить завершение проекта с соблюдением всех требований и этапов\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Купить молоко после работы",
+    "is_task": true,
+    "output": {
+      "title": "Покупка молока",
+      "description": "Закупка молока для домашнего использования",
+      "deadline": "2026-05-20 19:00",
+      "priority": "high",
+      "latency": 2.7038238048553467,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 40,
+        "total_tokens": 1267,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Покупка молока\",\n    \"description\": \"Закупка молока для домашнего использования\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Записаться к врачу на среду",
+    "is_task": true,
+    "output": {
+      "title": "Записаться на приём к врачу",
+      "description": "Организовать запись на консультацию у специалиста медицинского профиля",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.8706307411193848,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 55,
+        "total_tokens": 1284,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Записаться на приём к врачу\",\n    \"description\": \"Организовать запись на консультацию у специалиста медицинского профиля\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Сходить за продуктами 26.05.2026 вечером",
+    "is_task": true,
+    "output": {
+      "title": "Закупка продуктов",
+      "description": "Покупка необходимых продуктов для дома",
+      "deadline": "2026-05-26 20:26",
+      "priority": "low",
+      "latency": 2.865950584411621,
+      "tokens": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 51,
+        "total_tokens": 1288,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Закупка продуктов\",\n    \"description\": \"Покупка необходимых продуктов для дома\",\n    \"deadline\": \"26.05.2026\"\n}\n```"
+    }
+  },
+  {
+    "text": "Сходить за продуктами в субботу утром",
+    "is_task": true,
+    "output": {
+      "title": "Закупка продуктов",
+      "description": "Покупка необходимых продуктов для дома",
+      "deadline": "2026-05-23 09:00",
+      "priority": "medium",
+      "latency": 2.745875358581543,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 46,
+        "total_tokens": 1276,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Закупка продуктов\",\n  \"description\": \"Покупка необходимых продуктов для дома\",\n  \"deadline\": \"утром субботы\"\n}\n```"
+    }
+  },
+  {
+    "text": "Сходить на почту через 4 дня в обед",
+    "is_task": true,
+    "output": {
+      "title": "Получить письмо с почты",
+      "description": "Обработать посылку или получить уведомления от почтового отделения",
+      "deadline": "2026-05-24 15:00",
+      "priority": "medium",
+      "latency": 2.9062726497650146,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 62,
+        "total_tokens": 1293,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Получить письмо с почты\",\n    \"description\": \"Обработать посылку или получить уведомления от почтового отделения\",\n    \"deadline\": \"через 4 дня в обед\"\n}\n```"
+    }
+  },
+  {
+    "text": "Сходить в зал через 3 часа",
+    "is_task": true,
+    "output": {
+      "title": "Сходить в зал",
+      "description": "Пройти тренировку или посетить спортивный зал",
+      "deadline": "2026-05-20 22:16",
+      "priority": "high",
+      "latency": 2.766212224960327,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 47,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сходить в зал\",\n    \"description\": \"Пройти тренировку или посетить спортивный зал\",\n    \"deadline\": \"через 3 часа\"\n}\n```"
+    }
+  },
+  {
+    "text": "написать отчет по практике утром",
+    "is_task": true,
+    "output": {
+      "title": "Написать отчет по практике",
+      "description": "Создать и оформить отчет по прохождению практики",
+      "deadline": "2026-05-20 09:00",
+      "priority": "high",
+      "latency": 2.803440570831299,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 50,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Написать отчет по практике\",\n    \"description\": \"Создать и оформить отчет по прохождению практики\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "написать отчет по лабораторной работе следующим утром",
+    "is_task": true,
+    "output": {
+      "title": "Написать отчёт по лабораторной работе",
+      "description": "Подготовить и оформить отчёт для лабораторной работы",
+      "deadline": "2026-05-21 09:00",
+      "priority": "high",
+      "latency": 2.7963523864746094,
+      "tokens": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 51,
+        "total_tokens": 1285,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Написать отчёт по лабораторной работе\",\n  \"description\": \"Подготовить и оформить отчёт для лабораторной работы\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "написатьотчетполабораторнойработе",
+    "is_task": true,
+    "output": {
+      "title": "Написать отчёт по лабораторной работе",
+      "description": "Подготовка и оформление отчёта по выполненной лабораторной работе",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.833186149597168,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 54,
+        "total_tokens": 1286,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Написать отчёт по лабораторной работе\",\n  \"description\": \"Подготовка и оформление отчёта по выполненной лабораторной работе\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "доделать проект по английском до конца недели",
+    "is_task": true,
+    "output": {
+      "title": "Доделать проект по английскому",
+      "description": "Завершить и отредактировать проект на английском языке",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.8012771606445312,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 52,
+        "total_tokens": 1283,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Доделать проект по английскому\",\n    \"description\": \"Завершить и отредактировать проект на английском языке\",\n    \"deadline\": \"до конца недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "дописать домашнюю работу по физике к концу недели",
+    "is_task": true,
+    "output": {
+      "title": "Дописать домашнюю работу по физике",
+      "description": "Завершить и оформить домашнее задание по физике",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.9252517223358154,
+      "tokens": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 54,
+        "total_tokens": 1288,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Дописать домашнюю работу по физике\",\n  \"description\": \"Завершить и оформить домашнее задание по физике\",\n  \"deadline\": \"до конца недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "доделать проект по английском до конца рабочей недели",
+    "is_task": true,
+    "output": {
+      "title": "Доделать проект по английскому",
+      "description": "Завершить и отредактировать проект на английском языке",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.907548427581787,
+      "tokens": {
+        "prompt_tokens": 1233,
+        "completion_tokens": 54,
+        "total_tokens": 1287,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Доделать проект по английскому\",\n  \"description\": \"Завершить и отредактировать проект на английском языке\",\n  \"deadline\": \"до конца рабочей недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "дописать домашнюю работу по физике к концу рабочей недели",
+    "is_task": true,
+    "output": {
+      "title": "Дописать домашнюю работу по физике",
+      "description": "Завершить и оформить домашнее задание по физике",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.897106409072876,
+      "tokens": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 57,
+        "total_tokens": 1293,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Дописать домашнюю работу по физике\",\n    \"description\": \"Завершить и оформить домашнее задание по физике\",\n    \"deadline\": \"к концу рабочей недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "создай задачу: подготовить отчёт до пятницы в 18:00",
+    "is_task": true,
+    "output": {
+      "title": "Подготовка отчёта",
+      "description": "Создать и оформить отчёт по заданным требованиям",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.8146629333496094,
+      "tokens": {
+        "prompt_tokens": 1241,
+        "completion_tokens": 51,
+        "total_tokens": 1292,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Подготовка отчёта\",\n  \"description\": \"Создать и оформить отчёт по заданным требованиям\",\n  \"deadline\": \"пятница\"\n}\n```"
+    }
+  },
+  {
+    "text": "напомни завтра в 07:30 проснуться",
+    "is_task": true,
+    "output": {
+      "title": "Напоминание о пробуждении",
+      "description": "Установить напоминание для пробуждения на утро следующего дня",
+      "deadline": "2026-05-21 07:30",
+      "priority": "high",
+      "latency": 2.7895569801330566,
+      "tokens": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 50,
+        "total_tokens": 1285,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Напоминание о пробуждении\",\n  \"description\": \"Установить напоминание для пробуждения на утро следующего дня\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "поставь напоминание на 01.06",
+    "is_task": true,
+    "output": {
+      "title": "Поставить будильник",
+      "description": "Напомнить о каком-то событии или действии через день (без указания конкретного времени)",
+      "deadline": "2026-06-01",
+      "priority": "low",
+      "latency": 2.8401994705200195,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 54,
+        "total_tokens": 1286,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Поставить будильник\",\n  \"description\": \"Напомнить о каком-то событии или действии через день (без указания конкретного времени)\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "срочно нужно сделать задачу до завтра 12:00",
+    "is_task": true,
+    "output": {
+      "title": "Срочная обработка задачи",
+      "description": "необходимо выполнить задачу быстро",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.8273017406463623,
+      "tokens": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 44,
+        "total_tokens": 1279,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Срочная обработка задачи\",\n  \"description\": \"необходимо выполнить задачу быстро\",\n  \"deadline\": \"завтра\"\n}\n```"
+    }
+  },
+  {
+    "text": "очень важно напомнить сегодня в 20:00",
+    "is_task": false
+  },
+  {
+    "text": "Проверить почту в течение дня",
+    "is_task": true,
+    "output": {
+      "title": "Проверить электронную почту",
+      "description": "Обработать и просмотреть сообщения на почтовом ящике",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.8746345043182373,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 51,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Проверить электронную почту\",\n    \"description\": \"Обработать и просмотреть сообщения на почтовом ящике\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Обновить систему до конца недели",
+    "is_task": true,
+    "output": {
+      "title": "Обновление системы",
+      "description": "Внести изменения и обновить программное обеспечение до завершения текущей рабочей недели",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.882009506225586,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 57,
+        "total_tokens": 1284,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Обновление системы\",\n    \"description\": \"Внести изменения и обновить программное обеспечение до завершения текущей рабочей недели\",\n    \"deadline\": \"до конца недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "Отправить письмо клиенту сегодня",
+    "is_task": true,
+    "output": {
+      "title": "Отправить письмо клиенту",
+      "description": "Задать и отправить сообщение клиенту",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.7508788108825684,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 44,
+        "total_tokens": 1271,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправить письмо клиенту\",\n    \"description\": \"Задать и отправить сообщение клиенту\",\n    \"deadline\": \"сегодня\"\n}\n```"
+    }
+  },
+  {
+    "text": "Петя, переделай эту часть проекта, но не спеши",
+    "is_task": true,
+    "output": {
+      "title": "Переделывание части проекта",
+      "description": "Реализовать/изменить указанную в проекте часть без rush-режима",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.803227663040161,
+      "tokens": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 51,
+        "total_tokens": 1285,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Переделывание части проекта\",\n    \"description\": \"Реализовать/изменить указанную в проекте часть без rush-режима\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Вова, сделай все правки по проекту позже",
+    "is_task": true,
+    "output": {
+      "title": "Проверить и внести правки по проекту",
+      "description": "Сделать все необходимые правки в проекте",
+      "deadline": "нет срока",
+      "priority": "low",
+      "latency": 2.7730069160461426,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 47,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Проверить и внести правки по проекту\",\n    \"description\": \"Сделать все необходимые правки в проекте\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Дописать функцию до 23.05.2026",
+    "is_task": true,
+    "output": {
+      "title": "Дописать функцию",
+      "description": "Завершить реализацию функции",
+      "deadline": "2026-05-23 20:26",
+      "priority": "medium",
+      "latency": 2.799302339553833,
+      "tokens": {
+        "prompt_tokens": 1237,
+        "completion_tokens": 50,
+        "total_tokens": 1287,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Дописать функцию\",\n    \"description\": \"Завершить реализацию функции\",\n    \"deadline\": \"до 23 мая 2026 года\"\n}\n```"
+    }
+  },
+  {
+    "text": "Ваня, допиши свою часть кода до среды",
+    "is_task": true,
+    "output": {
+      "title": "Дописать код",
+      "description": "Завершить и дополнить часть кода Ваней",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.7649478912353516,
+      "tokens": {
+        "prompt_tokens": 1233,
+        "completion_tokens": 41,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Дописать код\",\n  \"description\": \"Завершить и дополнить часть кода Ваней\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Петя, отъдебажь код сегодня",
+    "is_task": true,
+    "output": {
+      "title": "Отъдебажить код",
+      "description": "Провести дебаггинг кода",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.7547450065612793,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 45,
+        "total_tokens": 1276,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отъдебажить код\",\n    \"description\": \"Провести дебаггинг кода\",\n    \"deadline\": \"сегодня\"\n}\n```"
+    }
+  },
+  {
+    "text": "Доделатьрабочуючасть",
+    "is_task": true,
+    "output": {
+      "title": "Доделать рабочую часть",
+      "description": "Завершить и отредактировать рабочую часть задачи",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.766232490539551,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 47,
+        "total_tokens": 1275,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Доделать рабочую часть\",\n    \"description\": \"Завершить и отредактировать рабочую часть задачи\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Доделатьраьочуючасть",
+    "is_task": false
+  },
+  {
+    "text": "Зделать перерыв",
+    "is_task": true,
+    "output": {
+      "title": "Сделать перерыв",
+      "description": "",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.618927240371704,
+      "tokens": {
+        "prompt_tokens": 1224,
+        "completion_tokens": 29,
+        "total_tokens": 1253,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сделать перерыв\",\n    \"description\": \"\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Задаяа Дедлайн 20 мая",
+    "is_task": false
+  },
+  {
+    "text": "отправить отчет не позже чем завтра к обеду",
+    "is_task": true,
+    "output": {
+      "title": "Отправить отчет",
+      "description": "Подготовка и отправка отчета по заданию",
+      "deadline": "2026-05-21 15:00",
+      "priority": "low",
+      "latency": 2.912356376647949,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 48,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Отправить отчет\",\n  \"description\": \"Подготовка и отправка отчета по заданию\",\n  \"deadline\": \"завтра в обед\"\n}\n```"
+    }
+  },
+  {
+    "text": "доделать презентацию к понедельнику до 10 утра",
+    "is_task": true,
+    "output": {
+      "title": "Доделать презентацию",
+      "description": "Завершить и отредактировать материал для презентации",
+      "deadline": "2026-05-25",
+      "priority": "low",
+      "latency": 2.8320696353912354,
+      "tokens": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 51,
+        "total_tokens": 1286,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Доделать презентацию\",\n  \"description\": \"Завершить и отредактировать материал для презентации\",\n  \"deadline\": \"понедельник\"\n}\n```"
+    }
+  },
+  {
+    "text": "где-нибудь на следующей неделе купить билеты",
+    "is_task": true,
+    "output": {
+      "title": "Купить билеты на следующую неделю",
+      "description": "Найти и приобрести билеты для поездки",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.78596568107605,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 49,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Купить билеты на следующую неделю\",\n    \"description\": \"Найти и приобрести билеты для поездки\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "не забудь в пятницу вечером проверить сервер",
+    "is_task": true,
+    "output": {
+      "title": "Проверить сервер",
+      "description": "Проверка состояния сервера перед выходными",
+      "deadline": "2026-05-22 19:00",
+      "priority": "high",
+      "latency": 2.752176523208618,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 46,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Проверить сервер\",\n  \"description\": \"Проверка состояния сервера перед выходными\",\n  \"deadline\": \"в пятницу вечером\"\n}\n```"
+    }
+  },
+  {
+    "text": "через 2 недели сдать документы",
+    "is_task": true,
+    "output": {
+      "title": "Сдать документы",
+      "description": "Подготовка и передача необходимых документов для выполнения обязательств",
+      "deadline": "2026-06-03",
+      "priority": "low",
+      "latency": 2.803037405014038,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 52,
+        "total_tokens": 1281,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сдать документы\",\n    \"description\": \"Подготовка и передача необходимых документов для выполнения обязательств\",\n    \"deadline\": \"через 2 недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "к 8 утра понедельника закончить отчет",
+    "is_task": true,
+    "output": {
+      "title": "Завершить отчёт",
+      "description": "Подготовить и оформить отчёт до указанного срока",
+      "deadline": "2026-05-25",
+      "priority": "low",
+      "latency": 2.8196346759796143,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 50,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Завершить отчёт\",\n  \"description\": \"Подготовить и оформить отчёт до указанного срока\",\n  \"deadline\": \"понедельника\"\n}\n```"
+    }
+  },
+  {
+    "text": "в воскресенье ближе к вечеру позвонить бабушке",
+    "is_task": true,
+    "output": {
+      "title": "Звонить бабушке",
+      "description": "Сделать звонок",
+      "deadline": "2026-05-24 19:00",
+      "priority": "medium",
+      "latency": 2.6603329181671143,
+      "tokens": {
+        "prompt_tokens": 1236,
+        "completion_tokens": 37,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Звонить бабушке\",\n  \"description\": \"Сделать звонок\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "примерно через 3 дня обновить сертификаты",
+    "is_task": true,
+    "output": {
+      "title": "Обновление сертификатов",
+      "description": "Обновить сервисы с использованием новых сертификатов",
+      "deadline": "2026-05-23",
+      "priority": "medium",
+      "latency": 2.877840280532837,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 52,
+        "total_tokens": 1284,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Обновление сертификатов\",\n    \"description\": \"Обновить сервисы с использованием новых сертификатов\",\n    \"deadline\": \"через 3 дня\"\n}\n```"
+    }
+  },
+  {
+    "text": "завтра до конца дня оплатить интернет",
+    "is_task": true,
+    "output": {
+      "title": "Оплатить интернет",
+      "description": "Оплатить услуги интернета",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.711294651031494,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 42,
+        "total_tokens": 1272,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Оплатить интернет\",\n  \"description\": \"Оплатить услуги интернета\",\n  \"deadline\": \"завтра\"\n}\n```"
+    }
+  },
+  {
+    "text": "часам к шести заехать за посылкой",
+    "is_task": true,
+    "output": {
+      "title": "Забрать посылку",
+      "description": "Убедиться, что посылка доставлена и забрать её в указанное время.",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.819098711013794,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 50,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Забрать посылку\",\n    \"description\": \"Убедиться, что посылка доставлена и забрать её в указанное время.\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "Леша, глянь журнал когда будет время",
+    "is_task": false
+  },
+  {
+    "text": "маме позвонить либо сегодня либо завтра утром",
+    "is_task": true,
+    "output": {
+      "title": "Звонить маме",
+      "description": "Сделать звонок матери",
+      "deadline": "2026-05-20 09:00",
+      "priority": "high",
+      "latency": 2.7175886631011963,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 37,
+        "total_tokens": 1268,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Звонить маме\",\n    \"description\": \"Сделать звонок матери\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "неплохо бы купить подарок до субботы",
+    "is_task": true,
+    "output": {
+      "title": "Подготовка подарка",
+      "description": "Купить подарок для кого-то",
+      "deadline": "2026-05-23",
+      "priority": "medium",
+      "latency": 2.7422006130218506,
+      "tokens": {
+        "prompt_tokens": 1233,
+        "completion_tokens": 41,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Подготовка подарка\",\n    \"description\": \"Купить подарок для кого-то\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "в течение месяца разобраться с налогами",
+    "is_task": true,
+    "output": {
+      "title": "Разобраться с налогами",
+      "description": "Организовать и завершить процедуру по урегулированию налоговых вопросов",
+      "deadline": "2026-05-31",
+      "priority": "low",
+      "latency": 2.9776675701141357,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 62,
+        "total_tokens": 1293,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Разобраться с налогами\",\n    \"description\": \"Организовать и завершить процедуру по урегулированию налоговых вопросов\",\n    \"deadline\": \"в течение месяца\"\n}\n```"
+    }
+  },
+  {
+    "text": "напомни через час проверить духовку",
+    "is_task": true,
+    "output": {
+      "title": "Проверить духовку",
+      "description": "Напомнить о проверке духовки",
+      "deadline": "2026-05-20 20:22",
+      "priority": "high",
+      "latency": 2.766371011734009,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 45,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Проверить духовку\",\n    \"description\": \"Напомнить о проверке духовки\",\n    \"deadline\": \"через 1 час\"\n}\n```"
+    }
+  },
+  {
+    "text": "сегодня после работы купить корм коту",
+    "is_task": true,
+    "output": {
+      "title": "Купить корм для кота",
+      "description": "Закупка корма для домашнего питомца (кота)",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.9705989360809326,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 51,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Купить корм для кота\",\n  \"description\": \"Закупка корма для домашнего питомца (кота)\",\n  \"deadline\": \"сегодня\"\n}\n```"
+    }
+  },
+  {
+    "text": "завтра как проснешься позвони",
+    "is_task": true,
+    "output": {
+      "title": "Создать будильник на завтра",
+      "description": "Установить и настроить будильник для пробуждения",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.835500478744507,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 53,
+        "total_tokens": 1283,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать будильник на завтра\",\n  \"description\": \"Установить и настроить будильник для пробуждения\",\n  \"deadline\": \"завтра\"\n}\n```"
+    }
+  },
+  {
+    "text": "в начале следующего месяца оплатить хостинг",
+    "is_task": true,
+    "output": {
+      "title": "Оплатить хостинг",
+      "description": "Провести оплату за хостинг",
+      "deadline": "2026-06-01",
+      "priority": "low",
+      "latency": 2.777031660079956,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 48,
+        "total_tokens": 1279,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Оплатить хостинг\",\n  \"description\": \"Провести оплату за хостинг\",\n  \"deadline\": \"начало следующего месяца\"\n}\n```"
+    }
+  },
+  {
+    "text": "срочн починить прод",
+    "is_task": false
+  },
+  {
+    "text": "атправить дакументы завтра",
+    "is_task": true,
+    "output": {
+      "title": "Отправка документов",
+      "description": "отправить документы",
+      "deadline": "2026-05-21",
+      "priority": "high",
+      "latency": 2.660026788711548,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 35,
+        "total_tokens": 1262,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправка документов\",\n    \"description\": \"отправить документы\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "купи хлеб когда пойдешь домой",
+    "is_task": true,
+    "output": {
+      "title": "Покупка хлеба",
+      "description": "Закупка необходимых продуктов при возвращении домой",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.7498912811279297,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 44,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Покупка хлеба\",\n    \"description\": \"Закупка необходимых продуктов при возвращении домой\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "послезавтра до вечера закрыть тикет",
+    "is_task": true,
+    "output": {
+      "title": "Закрыть тикет",
+      "description": "Обработать и закрыть открытый тикет после выполнения основной задачи",
+      "deadline": "2026-05-22 19:00",
+      "priority": "high",
+      "latency": 2.7757325172424316,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 49,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Закрыть тикет\",\n    \"description\": \"Обработать и закрыть открытый тикет после выполнения основной задачи\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "до конца весны отправить заявку",
+    "is_task": true,
+    "output": {
+      "title": "Отправить заявку",
+      "description": "Подготовка и отправка необходимой документации до завершения сезона весны",
+      "deadline": "2026-05-31",
+      "priority": "low",
+      "latency": 2.845661163330078,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 55,
+        "total_tokens": 1283,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправить заявку\",\n    \"description\": \"Подготовка и отправка необходимой документации до завершения сезона весны\",\n    \"deadline\": \"под конец весны\"\n}\n```"
+    }
+  },
+  {
+    "text": "к следующей пятнице сделать резервную копию",
+    "is_task": true,
+    "output": {
+      "title": "Сделать резервную копию",
+      "description": "Подготовка и создание резервного копирования данных",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.780233860015869,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 50,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сделать резервную копию\",\n    \"description\": \"Подготовка и создание резервного копирования данных\",\n    \"deadline\": \"следующая пятница\"\n}\n```"
+    }
+  },
+  {
+    "text": "сегодня-завтра бы разобраться с багом",
+    "is_task": true,
+    "output": {
+      "title": "Разобраться с багом",
+      "description": "Срочно устранить и проанализировать неполадки в системе",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.8080146312713623,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 50,
+        "total_tokens": 1281,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Разобраться с багом\",\n  \"description\": \"Срочно устранить и проанализировать неполадки в системе\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "надо оплатить аренду максимум послезавтра",
+    "is_task": true,
+    "output": {
+      "title": "Оплатить аренду",
+      "description": "Провести оплату арендных услуг",
+      "deadline": "2026-05-22",
+      "priority": "high",
+      "latency": 2.778449058532715,
+      "tokens": {
+        "prompt_tokens": 1233,
+        "completion_tokens": 49,
+        "total_tokens": 1282,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Оплатить аренду\",\n    \"description\": \"Провести оплату арендных услуг\",\n    \"deadline\": \"послезавтра\"\n}\n```"
+    }
+  },
+  {
+    "text": "через пару часов вынести мусор",
+    "is_task": true,
+    "output": {
+      "title": "Вынести мусор",
+      "description": "Очистить отходы из помещения",
+      "deadline": "2026-05-20 21:23",
+      "priority": "high",
+      "latency": 2.728996992111206,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 44,
+        "total_tokens": 1272,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Вынести мусор\",\n    \"description\": \"Очистить отходы из помещения\",\n    \"deadline\": \"через пару часов\"\n}\n```"
+    }
+  },
+  {
+    "text": "в течение дня ответить клиенту",
+    "is_task": true,
+    "output": {
+      "title": "Ответ на клиента",
+      "description": "Срочно необходимо ответить на запрос клиента в рамках рабочего дня.",
+      "deadline": "2026-05-20",
+      "priority": "high",
+      "latency": 2.758152723312378,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 46,
+        "total_tokens": 1272,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Ответ на клиента\",\n    \"description\": \"Срочно необходимо ответить на запрос клиента в рамках рабочего дня.\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "когда освободишься — закинь фотки",
+    "is_task": false
+  },
+  {
+    "text": "не позже пятницы отправить акты",
+    "is_task": true,
+    "output": {
+      "title": "Отправить акты",
+      "description": "Подготовка и отправка актов до завершения процесса",
+      "deadline": "2026-05-22",
+      "priority": "low",
+      "latency": 2.7921254634857178,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 47,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправить акты\",\n    \"description\": \"Подготовка и отправка актов до завершения процесса\",\n    \"deadline\": \"пятница\"\n}\n```"
+    }
+  },
+  {
+    "text": "до обеда не забыть позвонить врачу",
+    "is_task": true,
+    "output": {
+      "title": "Позвонить врачу",
+      "description": "Убедиться, что не забыли связаться с врачом до обеда",
+      "deadline": "2026-05-20 15:00",
+      "priority": "high",
+      "latency": 2.7919931411743164,
+      "tokens": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 50,
+        "total_tokens": 1280,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Позвонить врачу\",\n    \"description\": \"Убедиться, что не забыли связаться с врачом до обеда\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "к полуночи закончить выгрузку",
+    "is_task": true,
+    "output": {
+      "title": "Закончить выгрузку",
+      "description": "Выполнить завершение процесса выгрузки данных",
+      "deadline": "2026-05-20 23:59",
+      "priority": "high",
+      "latency": 2.699740171432495,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 42,
+        "total_tokens": 1270,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Закончить выгрузку\",\n    \"description\": \"Выполнить завершение процесса выгрузки данных\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "вечерком напомни проверить почту",
+    "is_task": true,
+    "output": {
+      "title": "Проверить почту",
+      "description": "Напомнить о необходимости проверки почты",
+      "deadline": "2026-05-20 19:00",
+      "priority": "high",
+      "latency": 2.730431079864502,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 41,
+        "total_tokens": 1270,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Проверить почту\",\n    \"description\": \"Напомнить о необходимости проверки почты\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "на днях купить новую мышку",
+    "is_task": true,
+    "output": {
+      "title": "Купить новую мышку",
+      "description": "Закупка новой компьютерной мыши для использования",
+      "deadline": "2026-05-22",
+      "priority": "medium",
+      "latency": 2.7369179725646973,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 43,
+        "total_tokens": 1270,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Купить новую мышку\",\n  \"description\": \"Закупка новой компьютерной мыши для использования\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "до конца недели разобраться почему падает сервис",
+    "is_task": true,
+    "output": {
+      "title": "Разобрать причину падения сервиса",
+      "description": "Найти и проанализировать причины нестабильности/провалов сервисной системы",
+      "deadline": "2026-05-24",
+      "priority": "medium",
+      "latency": 2.96274995803833,
+      "tokens": {
+        "prompt_tokens": 1231,
+        "completion_tokens": 65,
+        "total_tokens": 1296,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Разобрать причину падения сервиса\",\n  \"description\": \"Найти и проанализировать причины нестабильности/провалов сервисной системы.\",\n  \"deadline\": \"до конца недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "где-то к июлю закончить ремонт",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-07-01",
+      "priority": "low",
+      "latency": 3.315305471420288,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 80,
+        "total_tokens": 1309,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n**Замечание:** В тексте отсутствуют явные данные о задаче, поэтому невозможно извлечь корректный ответ в формате JSON. Пожалуйста, уточните или приведите полноценное описание задачи для дальнейшей обработки."
+    }
+  },
+  {
+    "text": "через недельку сходить к стоматологу",
+    "is_task": true,
+    "output": {
+      "title": "Сходить к стоматологу",
+      "description": "Плановое посещение стоматолога",
+      "deadline": "2026-05-27",
+      "priority": "low",
+      "latency": 2.586291790008545,
+      "tokens": {
+        "prompt_tokens": 1232,
+        "completion_tokens": 43,
+        "total_tokens": 1275,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Сходить к стоматологу\",\n    \"description\": \"Плановое посещение стоматолога\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "после созвона отправить всем итоги",
+    "is_task": true,
+    "output": {
+      "title": "Отправить итоги после созвона",
+      "description": "сообщить результаты встречи/созвона всем участникам",
+      "deadline": "нет срока",
+      "priority": "нет срока",
+      "latency": 2.8484647274017334,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 50,
+        "total_tokens": 1279,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Отправить итоги после созвона\",\n    \"description\": \"сообщить результаты встречи/созвона всем участникам\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "если не забудешь, отправь отчет завтра вечером",
+    "is_task": true,
+    "output": {
+      "title": "Отправить отчет",
+      "description": "Отправить отчет по результатам работы",
+      "deadline": "2026-05-21 19:00",
+      "priority": "high",
+      "latency": 2.6832571029663086,
+      "tokens": {
+        "prompt_tokens": 1235,
+        "completion_tokens": 39,
+        "total_tokens": 1274,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Отправить отчет\",\n  \"description\": \"Отправить отчет по результатам работы\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "надо бы как-нибудь потом созвониться",
+    "is_task": false
+  },
+  {
+    "text": "завтра наверное будет тяжело",
+    "is_task": false
+  },
+  {
+    "text": "в пятницу может быть встреча",
+    "is_task": false
+  },
+  {
+    "text": "постараюсь закончить проект к июню",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-06-01",
+      "priority": "low",
+      "latency": 3.0932273864746094,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 70,
+        "total_tokens": 1299,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"\",\n    \"deadline\": \"\"\n}\n```\n\n**Замечание:** В тексте отсутствуют явные данные для извлечения задачи в формате JSON. Если требуется обработка другого сообщения или контекста, предоставь его для корректного анализа."
+    }
+  },
+  {
+    "text": "не забудь не забыть",
+    "is_task": false
+  },
+  {
+    "text": "сделай уже что-нибудь",
+    "is_task": false
+  },
+  {
+    "text": "надо срочно подумать",
+    "is_task": false
+  },
+  {
+    "text": "через неделю будет видно",
+    "is_task": false
+  },
+  {
+    "text": "завтра утром дождь обещали",
+    "is_task": false
+  },
+  {
+    "text": "не забыть бы когда-нибудь обновить пароль",
+    "is_task": false
+  },
+  {
+    "text": "если вдруг будет время завтра",
+    "is_task": false
+  },
+  {
+    "text": "сегодня было бы неплохо выспаться",
+    "is_task": false
+  },
+  {
+    "text": "надо наверное когда-то заняться спортом",
+    "is_task": false
+  },
+  {
+    "text": "в понедельник все как обычно",
+    "is_task": false
+  },
+  {
+    "text": "через 5 минут уже выходить",
+    "is_task": false
+  },
+  {
+    "text": "до завтра еще далеко",
+    "is_task": false
+  },
+  {
+    "text": "в следующем месяце отпуск кажется",
+    "is_task": false
+  },
+  {
+    "text": "потом обсудим",
+    "is_task": false
+  },
+  {
+    "text": "сделать отчет через 5 минут",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовить и оформить отчет по заданию",
+      "deadline": "2026-05-20 19:31",
+      "priority": "high",
+      "latency": 2.799791097640991,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 49,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчет\",\n    \"description\": \"Подготовить и оформить отчет по заданию\",\n    \"deadline\": \"через 5 минут\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через 5 часов",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовка и оформление отчета для дальнейшего использования",
+      "deadline": "2026-05-21 00:26",
+      "priority": "high",
+      "latency": 2.7981953620910645,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 49,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчет\",\n    \"description\": \"Подготовка и оформление отчета для дальнейшего использования\",\n    \"deadline\": \"через 5 часов\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через 5 дней",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовить и оформить отчет по заданным требованиям",
+      "deadline": "2026-05-25",
+      "priority": "low",
+      "latency": 2.8789074420928955,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 53,
+        "total_tokens": 1281,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать отчет\",\n  \"description\": \"Подготовить и оформить отчет по заданным требованиям\",\n  \"deadline\": \"через 5 дней\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через 5 недель",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "",
+      "deadline": "2026-06-24",
+      "priority": "low",
+      "latency": 3.018984317779541,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 69,
+        "total_tokens": 1298,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"\",\n  \"description\": \"\",\n  \"deadline\": \"\"\n}\n```\n\n**Замечание:** В тексте отсутствуют явные данные для извлечения задачи в формате JSON. Пожалуйста, уточните или приведите полный текст задачи для корректного анализа."
+    }
+  },
+  {
+    "text": "сделать отчет через пять минут",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовить и оформить отчет",
+      "deadline": "2026-05-20 19:32",
+      "priority": "high",
+      "latency": 2.825138807296753,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 46,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчет\",\n    \"description\": \"Подготовить и оформить отчет\",\n    \"deadline\": \"через 5 минут\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через три часа",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовить и оформить отчет по заданию",
+      "deadline": "2026-05-20 22:27",
+      "priority": "high",
+      "latency": 2.7843666076660156,
+      "tokens": {
+        "prompt_tokens": 1227,
+        "completion_tokens": 49,
+        "total_tokens": 1276,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчёт\",\n    \"description\": \"Подготовить и оформить отчет по заданию\",\n    \"deadline\": \"через 3 часа\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через две недели",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовка и оформление отчета для предоставления данных",
+      "deadline": "2026-06-03",
+      "priority": "low",
+      "latency": 2.788936138153076,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 50,
+        "total_tokens": 1278,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать отчет\",\n  \"description\": \"Подготовка и оформление отчета для предоставления данных\",\n  \"deadline\": \"через 2 недели\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через 2 месяца",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчет",
+      "description": "Подготовка и оформление отчета для дальнейшего использования",
+      "deadline": "2026-07-20",
+      "priority": "low",
+      "latency": 2.7187626361846924,
+      "tokens": {
+        "prompt_tokens": 1229,
+        "completion_tokens": 43,
+        "total_tokens": 1272,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать отчет\",\n  \"description\": \"Подготовка и оформление отчета для дальнейшего использования\",\n  \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через два месяца",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовить и оформить отчет по заданным требованиям",
+      "deadline": "2026-07-20",
+      "priority": "low",
+      "latency": 2.7794923782348633,
+      "tokens": {
+        "prompt_tokens": 1228,
+        "completion_tokens": 47,
+        "total_tokens": 1275,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"Создать отчёт\",\n    \"description\": \"Подготовить и оформить отчет по заданным требованиям\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через год",
+    "is_task": true,
+    "output": {
+      "title": "",
+      "description": "сделать отчет",
+      "deadline": "2027-05-20",
+      "priority": "low",
+      "latency": 2.73982310295105,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 29,
+        "total_tokens": 1255,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n    \"title\": \"\",\n    \"description\": \"сделать отчет\",\n    \"deadline\": \"\"\n}\n```"
+    }
+  },
+  {
+    "text": "сделать отчет через час",
+    "is_task": true,
+    "output": {
+      "title": "Создать отчёт",
+      "description": "Подготовить и оформить отчет по заданию",
+      "deadline": "2026-05-20 20:28",
+      "priority": "high",
+      "latency": 2.778805732727051,
+      "tokens": {
+        "prompt_tokens": 1226,
+        "completion_tokens": 47,
+        "total_tokens": 1273,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "raw": "```json\n{\n  \"title\": \"Создать отчёт\",\n  \"description\": \"Подготовить и оформить отчет по заданию\",\n  \"deadline\": \"через час\"\n}\n```"
+    }
+  }
+]
