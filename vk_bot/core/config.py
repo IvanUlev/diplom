@@ -53,6 +53,16 @@ class Settings(BaseSettings):
         "channel_post"
     ]
 
+    # LM Studio
+    LLM_BASE_URL: str = "http://localhost:1234/v1"
+    LLM_MODEL: str = "google/gemma-3-4b"
+
+    # Jira
+    JIRA_BASE_URL: str = ""
+    JIRA_EMAIL: str = ""
+    JIRA_API_TOKEN: str = ""
+    JIRA_PROJECT_KEY: str = ""
+    JIRA_ISSUE_TYPE: str = "Task"
 
 @lru_cache
 def get_settings() -> Settings:

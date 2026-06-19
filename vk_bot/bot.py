@@ -1,77 +1,115 @@
 import asyncio
+import logging
+import os
+import random
+
+import vk_api
+from dotenv import load_dotenv
+from vk_api.longpoll import VkLongPoll, VkEventType
 
 from services.task_pipeline import process_message
-import logging
-import vk_api
-from vk_api.longpoll import VkLongPoll, VkEventType
-import random
-import json
 
-# Подключаем твои файлы с функциями
-from agents.detector import detect_task  # Импортируем из detector.py
-from agents.extractor_new import extract_data  # Импортируем из extractor.py
-from agents.priority_tool import get_priority  # Импортируем из priority.py
-from agents.validator_new import validate_task  # Импортируем из validator.py
 
-# Загрузка датасетов
-def load_dataset(filename):
-    with open(filename, "r", encoding="utf-8") as file:
-        return json.load(file)
+load_dotenv()
 
-# Загрузка датасетов 
-#detector_dataset = load_dataset('data/dataset_detector.json')  # Путь к датасету детектора
-priority_dataset = load_dataset('data/dataset_priority_v2.json')  # Путь к датасету приоритетов
-
-API_TOKEN = "vk1.a.CPJ37Dy2xgZW-anurhHqvyT--mFT5P8_UHqLO0Y7Cpt6y5EwkGLqe31RHlwIIEkPCH-UiBMnQpmsLbNrJEsqc84uT2WzQK6OaFGfumKQfUnVTPNhJPHNJXJgcNvjdwP7aNQ14-1LhUFSyPSXXty3pUzc8u-0HLHYNXBZfO3XP_OhgJAF8gztR72VmaGFEkmA8RsR2QisUmiUjC71_XtlZg"  # Токен ВКонтакте
-
-# Настройка логирования
 logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# Функция для обработки сообщений от пользователей ВКонтакте
-def handle_message(event, vk):
-    text = event.text  # Получаем текст от пользователя
+VK_API_TOKEN = os.getenv("VK_API_TOKEN")
 
-    # Проверка, является ли сообщение задачей с использованием detect_task
-    if not detect_task(text):  # Если это не задача
-        task_info = "Это не задача."  # Отправляем сообщение, что это не задача
-        vk.messages.send(user_id=event.user_id, message=task_info, random_id=random.randint(1, 1e6))  # Добавляем random_id
+processed_messages = set()
+
+
+def send_vk_message(vk, user_id: int, text: str) -> None:
+    vk.messages.send(
+        user_id=user_id,
+        message=text,
+        random_id=random.getrandbits(31),
+    )
+
+
+def handle_message(event, vk) -> None:
+    text = event.text.strip() if event.text else ""
+
+    if not text:
         return
-    
-    # Извлекаем данные задачи с помощью extract_data
-    data = extract_data(text)
-    if "error" in data:
-        task_info = f"Ошибка: {data['error']}\nДетали: {data.get('details', '')}"
-        vk.messages.send(user_id=event.user_id, message=task_info, random_id=random.randint(1, 1e6))  # Добавляем random_id
+
+    message_id = getattr(event, "message_id", None)
+    event_key = (event.user_id, message_id, text)
+
+    if event_key in processed_messages:
+        logger.info(f"Duplicate VK message skipped: {event_key}")
         return
-    
-    # Если это задача, вычисляем приоритет с помощью get_priority
-    data["priority"] = get_priority(text)
 
-    # Валидация данных с помощью validate
-    validated_data = validate(data)
-    
-    # Формируем ответ с задачей
-    if validated_data["is_task"]:
-        task_info = f"Задача: {validated_data['title']}\nОписание: {validated_data['description']}\nПриоритет: {validated_data['priority']}"
-    else:
-        task_info = "Это не задача."
-    
-    # Ответ пользователю
-    vk.messages.send(user_id=event.user_id, message=task_info, random_id=random.randint(1, 1e6))  # Добавляем random_id
+    processed_messages.add(event_key)
 
-# Основная функция для создания и запуска бота
-def main():
-    # Авторизация с использованием API токена
-    vk_session = vk_api.VkApi(token=API_TOKEN)
+    logger.info(f"VK message from user_id={event.user_id}: {text}")
+
+    vk_user = {
+        "id": event.user_id,
+        "username": None,
+        "full_name": f"VK user {event.user_id}",
+    }
+
+    try:
+        result = asyncio.run(
+            process_message(
+                text,
+                telegram_user=vk_user,
+            )
+        )
+
+        if result["status"] == "no_task":
+            send_vk_message(vk, event.user_id, "Задача не найдена.")
+            return
+
+        if result["status"] in ("extract_error", "validation_error", "invalid_task"):
+            send_vk_message(vk, event.user_id, "Не удалось корректно сформировать задачу.")
+            return
+
+        if result["status"] == "created":
+            task = result["task"]
+            jira_issue = result["jira_issue"]
+
+            send_vk_message(
+                vk,
+                event.user_id,
+                (
+                    "Задача создана в Jira.\n\n"
+                    f"Название: {task.get('title')}\n"
+                    f"Описание: {task.get('description')}\n"
+                    f"Дедлайн: {task.get('deadline')}\n"
+                    f"Приоритет: {task.get('priority')}\n"
+                    f"Ссылка: {jira_issue['url']}"
+                ),
+            )
+            return
+
+        send_vk_message(vk, event.user_id, "Неизвестный результат обработки.")
+
+    except Exception as exc:
+        logger.exception(f"Ошибка при обработке VK-сообщения: {exc}")
+        send_vk_message(
+            vk,
+            event.user_id,
+            "Ошибка при создании задачи. Проверь LM Studio, Jira и .env.",
+        )
+
+
+def main() -> None:
+    if not VK_API_TOKEN:
+        raise RuntimeError("VK_API_TOKEN не задан в .env")
+
+    vk_session = vk_api.VkApi(token=VK_API_TOKEN)
     vk = vk_session.get_api()
-
-    # Долгий опрос для получения сообщений
     longpoll = VkLongPoll(vk_session)
 
-    # Обрабатываем новые сообщения
+    logger.info("VK bot started")
+
     for event in longpoll.listen():
         if event.type == VkEventType.MESSAGE_NEW and event.to_me:
             handle_message(event, vk)
 
-if __name__ == '__main__':
-    main()  # Запуск бота
+
+if __name__ == "__main__":
+    main()
